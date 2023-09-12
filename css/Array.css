@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+div h1 {
+    background: #fbebb9;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 25px;
+    
+}
+
+.container {
+    justify-content: center;
+    padding: 25px;
+    margin: 350px;
+    border: solid #f3f3f3 ;
+    background-color:#f7d774 ;
+}
+
+.new-task-container {
+   text-align: center;
+   padding: 25px;
+
+}
+
+button {
+    background-color: #fbebb9;
+    color: rgb(3, 3, 3);
+    padding: 10px;
+    border: solid rgb(245, 244, 240);
+    margin: 10px;
+}
+
+
+body{
+  background:  #f9e197 ;  
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  
+}
+
+.task-item{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
